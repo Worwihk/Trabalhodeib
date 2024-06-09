@@ -1,0 +1,5 @@
+nome=input("Qual o seu nome completo: ")
+print("Responda a sua idade apenas com números")
+idade=int(input("Quantos anos você tem: "))
+if idade>=16:print("Você já tem idade para tirar o título de eleitor")
+else:print("Você não tem idade para tirar o título de eleitor")
